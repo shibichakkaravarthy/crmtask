@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+	div.dp {
+		font-size: 1em;
+	}
+
+	div.companyMobileView {
+		display: block;
+		font-size: 0.7em;
+	}
+
+	div.company {
+		display: none;
+	}
+
+	div.cardContainer {
+		margin: 10px 0px;
+	}
+}
+
+.cardContainer {
+	display: flex;
+}
+
+.checkBox {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.basicInfo {
+	flex: 6;
+	display: flex;
+	align-items: center;
+}
+
+.dp {
+	display: flex;
+	width: 2.1em;
+	height: 2.1em;
+	border-radius: 50%;
+	font-size: 2em;
+	font-weight: bolder;
+	color: #fff;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.detail {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.contactname {
+	font-size: 1.2em;
+}
+
+.email {
+	font-size: 0.7em;
+}
+
+.company {
+	flex: 3;
+	display: flex;
+	align-items: center;
+	font-size: 1em
+}
+
+.companyMobileView {
+	display: none;
+}

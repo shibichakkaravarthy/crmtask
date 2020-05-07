@@ -1,0 +1,16 @@
+.selectContainer {
+	padding: 10px;
+	position: relative;
+}
+
+.options {
+	position: absolute;
+	background-color: #fff;
+	width: 100%;
+	margin-left: -10px;
+}
+
+.options div {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}

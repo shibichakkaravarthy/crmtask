@@ -1,0 +1,46 @@
+.detailCardContainer {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70vh;
+}
+
+.dpContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.dp {
+	width: 2.1em;
+	height: 2.1em;
+	font-size: 2em;
+	border-radius: 50%;
+}
+
+.name {
+	font-size: 1.5em;
+	color: #000;
+	text-align: center;
+}
+
+.contactposition {
+	text-align: center;
+	color: #777;
+}
+
+.content {
+	margin: 10px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 25px 5px;
+}
+
+.property {
+	flex: 2;
+}
+
+.value {
+	flex: 3;
+}
